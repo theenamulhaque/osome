@@ -23,6 +23,10 @@ button:focus {
       border: 1px solid transparent !important;
   }
 
+.row_padding_remove{
+      padding: 0 !important;
+}
+
 /* global css end */
 
 /* nav start */
@@ -177,6 +181,31 @@ button:focus {
 
 .client_grid_left_img{
       position: relative;
+      z-index: 0;
+}
+
+.client_grid_left_img img{
+      z-index: 0;
+}
+
+.client_grid_left_play_btn{
+      position: absolute;
+      right: 5vw;
+      bottom: 3vw;
+      z-index: 1000;
+}
+
+.client_grid_left_play_btn img{
+      width: 5vw;
+      filter: blur(1px);
+      opacity: 0.5;
+      transition: all 0.3s ease-in-out;
+}
+
+.client_grid_left_play_btn img:hover{
+      filter: blur(0px);
+      opacity: 1;
+      transition: all 0.3s ease-in-out;
 }
 
 .client_grid_right_text{
@@ -194,7 +223,56 @@ button:focus {
 }
 
 .client_grid_right_text h3{
-      font-size: 2vw;
+      font-size: 1.6vw;
+      color: #fff;
+      font-weight: 300;
+}
+
+/* .client_grid_left_second_txt_img{
+      background-color: #212833;
+      padding: 2vw;
+}
+
+
+.client_grid_left_second_txt_img P{
+      font-size: 1vw;
       color: #fff;
 }
+
+.client_grid_left_second_txt_img h3{
+      font-size: 2.1vw;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 3vw;
+} */
+
+.client_second_grid_left_img{
+      background-color: #21283300;
+}
+
+.client_second_grid_left_img_inner{
+      background-color: #212833;
+      padding: 1.5vw;
+}
+
+.client_second_grid_left_img_inner P{
+      font-size: 0.8vw;
+      color: #fff;
+}
+
+.client_second_grid_left_img_inner h3{
+      font-size: 2.1vw;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 3vw;
+}
+
+.client_second_grid_right_text{
+      background-color: #e8e2db;
+}
+
+.client_second_right_grid_text h3{
+      font-size: 3vw;
+}
+
 /* client end */
