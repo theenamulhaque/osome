@@ -8,6 +8,8 @@
       box-sizing: border-box;
 }
 
+
+
 body{
       background-color: #F3EDE6;
       font-family: "Poppins", sans-serif;
@@ -27,7 +29,9 @@ button:focus {
       padding: 0 !important;
 }
 
-/* global css end */
+
+
+/* global css end =================*/
 
 /* nav start */
 
@@ -54,6 +58,10 @@ button:focus {
       font-weight: 600;
 }
 
+.banner_text img{
+      width: 8vw;
+}
+
 .banner_text_span{
       font-size: 6vw;
       font-weight: 600;
@@ -68,6 +76,7 @@ button:focus {
       border-radius: 50px;
       color: #fff;
       font-weight: 500;
+      font-size: 1.5vw;
 }
 
 .banner_schedule_btn{
@@ -76,23 +85,36 @@ button:focus {
       border-radius: 50px;
       color: #0061FE;
       font-weight: 500;
+      font-size: 1.5vw;
 }
 /* banner end */
 
-/* felxible start */
+/* image start */
+.image_part img{
+      border-radius: 5vw;
+      width: 100vw;
+}
+/* image end */
+
+/* flexible start */
 .flexible_title p{
       color: #b1b1b1;
-      font-size: 1vw;
+      font-size: 13px;
       letter-spacing: 2px;
 }
 .flexible_title h2{
-      font-size: 4vw;
+      font-size: 80px;
       font-weight: 600;
 }
 
 .flexible_grid h3{
-      font-size: 3vw;
+      font-size: 50px;
       font-weight: 500;
+}
+
+.flexible_grid p{
+      font-size: 15
+      px;
 }
 
 .flexible_grid_title_small{
@@ -100,28 +122,26 @@ button:focus {
       color: #0061FE;
 }
 
-.flexible_grid p{
-      font-size: 1vw;
+.flexible_grid_inner_grid_img img{
+      width: 80%;
 }
 
 .felxible_local_btn{
       background-color: #0061FE;
-      padding: 1vw 3vw;
       border-radius: 50px;
       color: #fff;
       font-weight: 500;
-      font-size: 1vw;
+      font-size: 12px;
 }
 
 .flexible_foreign_btn{
       border: 1px solid #0061FE;
-      padding: 1vw 3vw;
       border-radius: 50px;
       color: #0061FE;
       font-weight: 500;
-      font-size: 1vw;
+      font-size: 12px;
 }
-/* felxible end */
+/* flexible end */
 
 /* founders start */
 .founders_title p{
@@ -276,3 +296,4 @@ button:focus {
 }
 
 /* client end */
+
